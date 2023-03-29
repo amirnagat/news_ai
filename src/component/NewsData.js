@@ -10,6 +10,7 @@ import { getNews } from "../Service/getNews";
 const NewsData = () => {
   const [newsData, setNewsData] = useState([]);
   const [selectOption, setSelectOption] = useState("");
+  
   const alanKey = "06bc31f2527169db2a320032994fe2892e956eca572e1d8b807a3e2338fdd0dc/stage"
 
 
