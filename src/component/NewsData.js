@@ -20,7 +20,7 @@ const NewsData = () => {
 
   const selectCategory = (event) => {
     setSelectOption(event.target.value);
-  };
+  }; 
 
 
 useEffect(()=>{
