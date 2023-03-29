@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
+import NewsData from './component/NewsData';
 import './App.css';
+const alanKey = "06bc31f2527169db2a320032994fe2892e956eca572e1d8b807a3e2338fdd0dc/stage"
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <NewsData/>
     </div>
   );
 }
